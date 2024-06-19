@@ -1,0 +1,6 @@
+*.sln filter=git-crypt diff=git-crypt
+*.md filter=git-crypt diff=git-crypt
+Source/** filter=git-crypt diff=git-crypt
+
+# exclude .gitattributes file beeing encrypted
+.gitattributes !filter !diff
